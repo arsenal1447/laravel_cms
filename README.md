@@ -177,3 +177,17 @@ Bootstrap CMS可以通过一个包读取 CloudFlare统计数据
 
 - 按照 Laravel CloudFlare包安装指南安装该Laravel包
 - Bootstrap CMS会自动检测这个包，只允许管理员访问，以及添加链接到导航条
+
+
+
+## 报错解决方案 服务器500错误
+
+*production.ERROR: exception 'RuntimeException' with message 'No supported en*
+
+复制文件
+
+	copy .env.example =>.env  
+
+执行命令，生成key 
+	
+	php artisan key:generate
