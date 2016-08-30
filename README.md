@@ -135,7 +135,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 - 某些功能如密码重置和联系表单需要邮件功能
 - 必须在配置文件config/contact.php中设置联系邮箱地址
 - 推荐使用邮件队列发送大量邮件（详见下面设置队列部分）
+
 6.最后，设置Apache/Nginx指向public目录
+
 - 本地开发的话也可以简单运行php artisan serve开启服务器
 
 #### 3.2 设置队列
