@@ -1,0 +1,5 @@
+.env
+phpunit.xml
+vendor
+node_modules
+/.git/
