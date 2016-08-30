@@ -35,7 +35,8 @@ return [
     |
     */
 
-    'activation' => env('CRED_ACTIVATION', true),
+    // 'activation' => env('CRED_ACTIVATION', true),
+    'activation' => env('CRED_ACTIVATION', false),
 
     /*
     |--------------------------------------------------------------------------
